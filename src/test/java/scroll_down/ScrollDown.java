@@ -16,7 +16,7 @@ public class ScrollDown extends DriverSetup {
 		
 		//Scroll Down
 		JavascriptExecutor jse = (JavascriptExecutor) driver;
-		jse.executeScript("window.scrollBy(0,4500);");
+		jse.executeScript("window.scrollBy(0,4500)");
 		Thread.sleep(1000);
 	
 		driver.close();
